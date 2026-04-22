@@ -12,32 +12,34 @@ An AI-powered student productivity platform that transforms raw study materials 
 
 ## 🧠 Core Features
 
-- **📄 Smart Summaries**: Automatically convert long PDFs into concise, actionable bullet points.
-- **🧒 Explain Like I'm 10**: Simplifies complex academic jargon into beginner-friendly analogies.
-- **❓ AI Quiz Generator**: Create custom multiple-choice quizzes from your study material to test your knowledge.
-- **💬 AI Doubt Chat**: Ask questions directly to your uploaded documents for instant clarification.
-- **📊 Personalized Dashboard**: Track your study time, daily streaks, and learning progress in real-time.
-- **📚 Saved Notes Library**: Organize and revisit all your AI-processed notes anytime.
+- **📄 Smart Summaries**: Automatically convert long PDFs and documents into concise, actionable bullet points.
+- **🔍 In-depth Explanations**: Comprehensive breakdowns of complex topics into easy-to-understand study notes.
+- **❓ AI Quiz Generator**: Dynamically creates multiple-choice quizzes from your study material to reinforce learning.
+- **💬 Interactive AI Chat**: A split-screen chat interface that allows you to ask questions directly to your documents with full context.
+- **📊 Real-time Analytics**: Track your study hours, document mastery, and daily streaks through a personalized dashboard.
+- **💾 Cloud Persistence**: Securely save and organize your study materials in a cloud-backed library powered by Supabase.
 
 ---
 
 ## 💻 Tech Stack
 
 ### Frontend
-- **React 18** + **Vite** (for blazing fast UI)
-- **Tailwind CSS** (for modern, premium aesthetics)
-- **Lucide React** (for beautiful iconography)
-- **Framer Motion** (for smooth animations)
-- **Supabase Auth** (for secure user management)
+- **React 18** + **Vite** (Modern, fast UI development)
+- **Tailwind CSS** (Premium styling and responsive layouts)
+- **Lucide React** (Consistent, high-quality iconography)
+- **Framer Motion** (Smooth transitions and interactive animations)
+- **Supabase JS** (Direct database & authentication integration)
 
 ### Backend
-- **Node.js** + **Express.js**
-- **Multer** (for file handling)
-- **PDF-Parse** (for text extraction from documents)
-- **Grok API (xAI)** (for advanced LLM processing)
+- **Node.js** + **Express.js** (Robust API architecture)
+- **Multer** (Efficient multi-format file handling)
+- **PDF-Parse** (Advanced text extraction from study materials)
+- **Grok API (xAI)** (State-of-the-art LLM for intelligent summaries and quizzes)
 
-### Database & Storage
-- **Supabase** (PostgreSQL database + Storage buckets for notes)
+### Database & Security
+- **Supabase (PostgreSQL)** (Relational data storage with Row-Level Security)
+- **Supabase Auth** (Secure email-based user authentication)
+- **Supabase Storage** (Safe storage for uploaded study documents)
 
 ---
 
